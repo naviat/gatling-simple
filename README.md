@@ -40,6 +40,7 @@ Use the `-e` switch to use JAVA_OPTS to pass parameters to gatling tests
 
 ```
 docker run -e JAVA_OPTS="-Dusers=10" -it --rm naviat/gatling-simple
+```
 
 # Run on K8S
 
